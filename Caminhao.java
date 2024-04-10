@@ -47,6 +47,7 @@ public class Caminhao extends Veiculo {
     
     @Override
     public void leitura(){
+        super.leitura();
         setToneladas(Integer.parseInt(JOptionPane.showInputDialog("Digite as toneladas: ")));
         setAltura(Integer.parseInt(JOptionPane.showInputDialog("Digite a altura em metros: ")));
         setComprimento(Integer.parseInt(JOptionPane.showInputDialog("Digite o comprimento em metros: ")));
